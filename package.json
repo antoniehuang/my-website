@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.0"
-  }
+    "bootstrap": "^5.2.0",
+    "sass": "^1.54.0"
+  },
+  "name": "my-website",
+  "description": "A repository of my personal website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniehuang/my-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniehuang/my-website/issues"
+  },
+  "homepage": "https://github.com/antoniehuang/my-website#readme"
 }
