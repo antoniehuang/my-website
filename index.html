@@ -10,8 +10,8 @@
 </head>
 
 <nav class="navbar navbar-expand-lg bg-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <div class="container">
+        <a class="navbar-brand" href="#">Antonie Huang</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -21,18 +21,22 @@
                 <a class="nav-link active" aria-current="page" href="#">about</a>
                 <a class="nav-link" href="#">blog</a>
                 <a class="nav-link" href="#">cv</a>
-                <a class="nav-link disabled">projects</a>
+                <a class="nav-link" href="#">projects</a>
             </div>
         </div>
     </div>
 </nav>
 
 <body>
-    <div class="container text-center">
+    <div id="about-me" class="container-lg border">
         <div class="row">
-            <div class="col">
+            <div class="col mt-5 ms-5">
                 <h1>Antonie (Yu-Chi) Huang</h1>
                 <p>Aspiring Full Stack Deep Learning Developer</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-1 ms-5 mb-5">
                 <article>
                     <p>Ooh Hello! My name is Yu-Chi Huang, but I go by Antonie most of the time.</p>
                     <p>I recently graduated from The University of Birmingham with a degree in Artificial Intelligence
@@ -46,8 +50,9 @@
                     <p>You can connect with me by clicking the icons below!</p>
                 </article>
             </div>
-            <div class="col">
-                <img src="./img/prof_pic.jpeg" class="img-fluid" alt="An image of myself with a tucan!">
+            <div class="col mt-1 me-5 mb-5">
+                <img src="./img/prof_pic.jpeg" id="prof-pic" class="img-fluid z-depth-1 rounded"
+                    alt="An image of myself with a tucan!">
             </div>
         </div>
     </div>

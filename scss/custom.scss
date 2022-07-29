@@ -10,3 +10,16 @@ $primary-color: purple;
 h1 {
     color: $primary-color
 }
+
+#about-me {
+    max-width: 900px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 35px;
+}
+
+#prof-pic {
+    max-width: 250px;
+}
